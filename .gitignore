@@ -1,13 +1,24 @@
-# Virtual environment
+# Ambientes virtuais
 .venv/
+env/
+ENV/
 
-# Python cache
+# Cache e compilados do Python
 __pycache__/
 *.py[cod]
+*$py.class
 
-# IDE settings
+# Configurações de IDEs
 .idea/
+.vscode/
 
-# System files
+# Arquivos de sistema
 .DS_Store
 Thumbs.db
+
+# Arquivos de log e backup
+*.log
+*.zip
+*.rar
+*.tar.gz
+*.bak
